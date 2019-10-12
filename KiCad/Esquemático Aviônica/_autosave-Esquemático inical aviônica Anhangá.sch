@@ -666,10 +666,12 @@ Text GLabel 7250 3550 2    50   Input ~ 0
 GND
 Text GLabel 2300 4350 0    50   Input ~ 0
 D_OUTPUT_NÍQUEL
-Text GLabel 2300 4350 2    50   Input ~ 0
+Text GLabel 2550 4350 2    50   Input ~ 0
 D2
 Text GLabel 3350 3950 1    50   Input ~ 0
 D8
 Text GLabel 4700 3350 0    50   Input ~ 0
 D8
+Wire Wire Line
+	2300 4350 2550 4350
 $EndSCHEMATC

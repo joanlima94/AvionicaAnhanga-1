@@ -31,7 +31,7 @@ U 1 1 5D79516C
 P 4650 5950
 F 0 "J1" H 4678 5926 50  0001 L CNN
 F 1 "Conn_01x06_Female" H 4678 5835 50  0001 L CNN
-F 2 "Connector_PinSocket_1.00mm:PinSocket_1x06_P1.00mm_Vertical" H 4650 5950 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 4650 5950 50  0001 C CNN
 F 3 "~" H 4650 5950 50  0001 C CNN
 	1    4650 5950
 	-1   0    0    1   
@@ -53,7 +53,7 @@ U 1 1 5D7A3745
 P 2000 5750
 F 0 "R1" V 1793 5750 50  0000 C CNN
 F 1 "R" V 1884 5750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1930 5750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1930 5750 50  0001 C CNN
 F 3 "~" H 2000 5750 50  0001 C CNN
 	1    2000 5750
 	0    1    1    0   
@@ -64,7 +64,7 @@ U 1 1 5D7A3C9E
 P 2450 5750
 F 0 "R2" V 2243 5750 50  0000 C CNN
 F 1 "R" V 2334 5750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2380 5750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2380 5750 50  0001 C CNN
 F 3 "~" H 2450 5750 50  0001 C CNN
 	1    2450 5750
 	0    1    1    0   
@@ -75,7 +75,7 @@ U 1 1 5D7A3EDA
 P 3350 5100
 F 0 "R3" H 3420 5146 50  0000 L CNN
 F 1 "R" H 3420 5055 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3280 5100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3280 5100 50  0001 C CNN
 F 3 "~" H 3350 5100 50  0001 C CNN
 	1    3350 5100
 	1    0    0    -1  
@@ -108,7 +108,7 @@ U 1 1 5D7A9546
 P 2850 2750
 F 0 "J3" V 2923 2680 50  0001 C CNN
 F 1 "Conn_01x12_Female" V 2924 2680 50  0001 C CNN
-F 2 "Connector_PinSocket_1.00mm:PinSocket_1x12_P1.00mm_Vertical" H 2850 2750 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 2850 2750 50  0001 C CNN
 F 3 "~" H 2850 2750 50  0001 C CNN
 	1    2850 2750
 	0    -1   -1   0   
@@ -119,7 +119,7 @@ U 1 1 5D7AAB27
 P 1900 3300
 F 0 "J2" H 1792 2867 50  0001 C CNN
 F 1 "Conn_01x06_Female" H 1792 2866 50  0001 C CNN
-F 2 "Connector_PinSocket_1.00mm:PinSocket_1x06_P1.00mm_Vertical" H 1900 3300 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 1900 3300 50  0001 C CNN
 F 3 "~" H 1900 3300 50  0001 C CNN
 	1    1900 3300
 	-1   0    0    1   
@@ -282,7 +282,7 @@ U 1 1 5D7A7B88
 P 4600 4550
 F 0 "J6" H 4708 4839 50  0001 C CNN
 F 1 "Conn_01x06_Male" H 4708 4840 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical" H 4600 4550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4600 4550 50  0001 C CNN
 F 3 "~" H 4600 4550 50  0001 C CNN
 	1    4600 4550
 	1    0    0    -1  
@@ -386,8 +386,6 @@ Text Notes 4650 2400 0    50   ~ 0
 Alimentação\n
 Text GLabel 2350 2950 3    50   Input ~ 0
 VBAT
-Text GLabel 3350 3950 1    50   Input ~ 0
-D_OUTPUT_NÍQUEL
 Text GLabel 4950 6050 2    50   Input ~ 0
 +3V3
 Wire Notes Line
@@ -460,7 +458,7 @@ U 1 1 5D8338CC
 P 6550 2900
 F 0 "J8" H 6578 2926 50  0000 L CNN
 F 1 "Conn_01x07_Female" H 6578 2835 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical" H 6550 2900 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 6550 2900 50  0001 C CNN
 F 3 "~" H 6550 2900 50  0001 C CNN
 	1    6550 2900
 	1    0    0    -1  
@@ -482,68 +480,57 @@ GND
 Text GLabel 6150 3100 0    50   Input ~ 0
 VCC
 Text GLabel 6150 3000 0    50   Input ~ 0
-AUX
+AUX_L
 Text GLabel 6150 2900 0    50   Input ~ 0
 TXD
 Text GLabel 6150 2800 0    50   Input ~ 0
 RXD
 Text GLabel 6150 2600 0    50   Input ~ 0
 M0
-Text GLabel 6500 4800 3    50   Input ~ 0
+Text GLabel 6450 4800 3    50   Input ~ 0
 GND
-Text GLabel 7000 4300 2    50   Input ~ 0
-VBAT
 Text GLabel 5950 4300 0    50   Input ~ 0
+VBAT
+Text GLabel 7000 4300 2    50   Input ~ 0
 VCC
 $Comp
 L Device:C C2
 U 1 1 5D99A3F1
-P 6900 4550
-F 0 "C2" H 7015 4596 50  0000 L CNN
-F 1 "C" H 7015 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6938 4400 50  0001 C CNN
-F 3 "~" H 6900 4550 50  0001 C CNN
-	1    6900 4550
-	1    0    0    -1  
+P 6050 4550
+F 0 "C2" H 6165 4596 50  0000 L CNN
+F 1 "C" H 6165 4505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6088 4400 50  0001 C CNN
+F 3 "~" H 6050 4550 50  0001 C CNN
+	1    6050 4550
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C C1
 U 1 1 5D99A944
-P 6100 4550
-F 0 "C1" H 6215 4596 50  0000 L CNN
-F 1 "C" H 6215 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6138 4400 50  0001 C CNN
-F 3 "~" H 6100 4550 50  0001 C CNN
-	1    6100 4550
-	1    0    0    -1  
+P 6850 4550
+F 0 "C1" H 6965 4596 50  0000 L CNN
+F 1 "C" H 6965 4505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6888 4400 50  0001 C CNN
+F 3 "~" H 6850 4550 50  0001 C CNN
+	1    6850 4550
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6100 4700 6500 4700
-Connection ~ 6500 4700
+	6850 4700 6450 4700
+Connection ~ 6450 4700
 Wire Wire Line
-	6500 4700 6500 4800
+	6450 4700 6450 4800
 Wire Wire Line
-	6900 4700 6500 4700
+	6050 4700 6450 4700
 Wire Wire Line
-	6500 4600 6500 4700
-$Comp
-L Regulator_Linear:LD1117S18TR_SOT223 U1
-U 1 1 5D909DAB
-P 6500 4300
-F 0 "U1" H 6500 4542 50  0000 C CNN
-F 1 "LD1117S18TR_SOT223" H 6500 4451 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3" H 6500 4500 50  0001 C CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 6600 4050 50  0001 C CNN
-	1    6500 4300
-	1    0    0    -1  
-$EndComp
+	6450 4600 6450 4700
 $Comp
 L Connector:Conn_01x12_Female J4
 U 1 1 5D7A6B02
 P 2950 4150
 F 0 "J4" V 3023 4080 50  0001 C CNN
 F 1 "Conn_01x12_Female" V 3114 4080 50  0001 C CNN
-F 2 "Connector_PinSocket_1.00mm:PinSocket_1x12_P1.00mm_Vertical" H 2950 4150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 2950 4150 50  0001 C CNN
 F 3 "~" H 2950 4150 50  0001 C CNN
 	1    2950 4150
 	0    1    1    0   
@@ -558,7 +545,7 @@ U 1 1 5DB81CA3
 P 3100 6200
 F 0 "R5" H 3170 6246 50  0000 L CNN
 F 1 "100k" H 3170 6155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3030 6200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3030 6200 50  0001 C CNN
 F 3 "~" H 3100 6200 50  0001 C CNN
 	1    3100 6200
 	1    0    0    -1  
@@ -584,7 +571,7 @@ U 1 1 5DB87D4F
 P 2600 6150
 F 0 "R4" V 2393 6150 50  0000 C CNN
 F 1 "1k" V 2484 6150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2530 6150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2530 6150 50  0001 C CNN
 F 3 "~" H 2600 6150 50  0001 C CNN
 	1    2600 6150
 	0    1    1    0   
@@ -627,19 +614,19 @@ F 3 "~" H 5300 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 4300 6900 4300
+	6150 4300 6050 4300
 Wire Wire Line
-	6900 4400 6900 4300
-Connection ~ 6900 4300
+	6050 4400 6050 4300
+Connection ~ 6050 4300
 Wire Wire Line
-	6900 4300 7000 4300
+	6050 4300 5950 4300
 Wire Wire Line
-	5950 4300 6100 4300
+	7000 4300 6850 4300
 Wire Wire Line
-	6100 4400 6100 4300
-Connection ~ 6100 4300
+	6850 4400 6850 4300
+Connection ~ 6850 4300
 Wire Wire Line
-	6100 4300 6200 4300
+	6850 4300 6750 4300
 Text GLabel 2100 3400 2    50   Input ~ 0
 TX0
 Text GLabel 6050 3550 0    50   Input ~ 0
@@ -658,12 +645,29 @@ Text GLabel 6850 3550 0    50   Input ~ 0
 M0
 Text GLabel 6850 3650 0    50   Input ~ 0
 M1
-Text GLabel 7250 3550 2    50   Input ~ 0
-D7
-Text GLabel 7250 3650 2    50   Input ~ 0
-D6
 Wire Wire Line
 	7250 3650 6850 3650
 Wire Wire Line
 	6850 3550 7250 3550
+Wire Wire Line
+	4700 2800 5100 2800
+$Comp
+L Regulator_Linear:AP2204RA-3.3 U1
+U 1 1 5DA29FF3
+P 6450 4300
+F 0 "U1" H 6450 4542 50  0000 C CNN
+F 1 "ME620933" H 6450 4451 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 6450 4525 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 6450 4300 50  0001 C CNN
+	1    6450 4300
+	1    0    0    -1  
+$EndComp
+Text GLabel 7250 3650 2    50   Input ~ 0
+GND
+Text GLabel 7250 3550 2    50   Input ~ 0
+GND
+Text GLabel 2300 4350 0    50   Input ~ 0
+D_OUTPUT_NÍQUEL
+Text GLabel 2300 4350 2    50   Input ~ 0
+D2
 $EndSCHEMATC
