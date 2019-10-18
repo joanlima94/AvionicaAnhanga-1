@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/lukas/Documentos/Git/Avionica_Anhanga/KiCad/Esquemático Aviônica/Esquemático inical aviônica Anhangá.sch")
-    (date "sex 18 out 2019 00:44:20 -03")
+    (date "sex 18 out 2019 00:36:12 -03")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
