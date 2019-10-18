@@ -97,7 +97,7 @@ U 1 1 5D7A54EB
 P 3900 5050
 F 0 "J5" H 3980 5042 50  0001 L CNN
 F 1 "Screw_Terminal_01x02" H 3980 4951 50  0001 L CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 3900 5050 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3900 5050 50  0001 C CNN
 F 3 "~" H 3900 5050 50  0001 C CNN
 	1    3900 5050
 	1    0    0    -1  
@@ -606,7 +606,7 @@ U 1 1 5DB98147
 P 5300 2700
 F 0 "J7" H 5380 2692 50  0001 L CNN
 F 1 "Screw_Terminal_01x02" H 5380 2601 50  0001 L CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 5300 2700 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5300 2700 50  0001 C CNN
 F 3 "~" H 5300 2700 50  0001 C CNN
 	1    5300 2700
 	1    0    0    -1  
@@ -666,10 +666,16 @@ Text GLabel 7250 3550 2    50   Input ~ 0
 GND
 Text GLabel 2300 4350 0    50   Input ~ 0
 D_OUTPUT_NÍQUEL
-Text GLabel 2300 4350 2    50   Input ~ 0
+Text GLabel 2550 4350 2    50   Input ~ 0
 D2
 Text GLabel 3350 3950 1    50   Input ~ 0
 D8
 Text GLabel 4700 3350 0    50   Input ~ 0
 D8
+Wire Wire Line
+	2300 4350 2550 4350
+Text GLabel 6850 4250 1    50   Input ~ 0
++3V3
+Wire Wire Line
+	6850 4250 6850 4300
 $EndSCHEMATC
