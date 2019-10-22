@@ -28,12 +28,12 @@ $EndComp
 $Comp
 L Connector:Conn_01x06_Female J1
 U 1 1 5D79516C
-P 4650 5950
-F 0 "J1" H 4678 5926 50  0001 L CNN
-F 1 "Conn_01x06_Female" H 4678 5835 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 4650 5950 50  0001 C CNN
-F 3 "~" H 4650 5950 50  0001 C CNN
-	1    4650 5950
+P 4650 4650
+F 0 "J1" H 4678 4626 50  0001 L CNN
+F 1 "Conn_01x06_Female" H 4678 4535 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 4650 4650 50  0001 C CNN
+F 3 "~" H 4650 4650 50  0001 C CNN
+	1    4650 4650
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -204,47 +204,47 @@ Wire Notes Line
 Text Notes 2350 4700 0    50   ~ 0
 Acionamento Níquel\n
 Wire Wire Line
-	4950 5650 4850 5650
+	4950 4350 4850 4350
 Wire Wire Line
-	4950 5750 4850 5750
+	4950 4450 4850 4450
 Wire Wire Line
-	4950 5850 4850 5850
+	4950 4550 4850 4550
 Wire Wire Line
-	4950 5950 4850 5950
+	4950 4650 4850 4650
 Wire Wire Line
-	4950 6050 4850 6050
-Text GLabel 4950 5650 2    50   Input ~ 0
+	4950 4750 4850 4750
+Text GLabel 4950 4350 2    50   Input ~ 0
 CS
-Text GLabel 4950 5750 2    50   Input ~ 0
+Text GLabel 4950 4450 2    50   Input ~ 0
 SCK
-Text GLabel 4950 5850 2    50   Input ~ 0
+Text GLabel 4950 4550 2    50   Input ~ 0
 MOSI
-Text GLabel 4950 5950 2    50   Input ~ 0
+Text GLabel 4950 4650 2    50   Input ~ 0
 MISO
 Wire Wire Line
-	4850 6150 5000 6150
+	4850 4850 5000 4850
 Wire Wire Line
-	5000 6150 5000 6400
+	5000 4850 5000 5100
 $Comp
 L power:GND #PWR0103
 U 1 1 5D7A121D
-P 5000 6400
-F 0 "#PWR0103" H 5000 6150 50  0001 C CNN
-F 1 "GND" H 5005 6227 50  0000 C CNN
-F 2 "" H 5000 6400 50  0001 C CNN
-F 3 "" H 5000 6400 50  0001 C CNN
-	1    5000 6400
+P 5000 5100
+F 0 "#PWR0103" H 5000 4850 50  0001 C CNN
+F 1 "GND" H 5005 4927 50  0000 C CNN
+F 2 "" H 5000 5100 50  0001 C CNN
+F 3 "" H 5000 5100 50  0001 C CNN
+	1    5000 5100
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	4500 5450 4500 6650
+	4500 4150 4500 5350
 Wire Notes Line
-	4500 6650 5350 6650
+	4500 5350 5350 5350
 Wire Notes Line
-	5350 6650 5350 5450
+	5350 5350 5350 4150
 Wire Notes Line
-	5350 5450 4500 5450
-Text Notes 4600 5400 0    50   ~ 0
+	5350 4150 4500 4150
+Text Notes 4600 4100 0    50   ~ 0
 Socket Micro SD
 $Comp
 L power:GND #PWR0104
@@ -274,60 +274,6 @@ F 3 "" H 2650 3950 50  0001 C CNN
 	1    2650 3950
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector:Conn_01x06_Male J6
-U 1 1 5D7A7B88
-P 4600 4550
-F 0 "J6" H 4708 4839 50  0001 C CNN
-F 1 "Conn_01x06_Male" H 4708 4840 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4600 4550 50  0001 C CNN
-F 3 "~" H 4600 4550 50  0001 C CNN
-	1    4600 4550
-	1    0    0    -1  
-$EndComp
-Text GLabel 4950 4350 2    50   Input ~ 0
-VCC
-$Comp
-L power:GND #PWR0106
-U 1 1 5D7A8F23
-P 5050 4450
-F 0 "#PWR0106" H 5050 4200 50  0001 C CNN
-F 1 "GND" V 5055 4322 50  0000 R CNN
-F 2 "" H 5050 4450 50  0001 C CNN
-F 3 "" H 5050 4450 50  0001 C CNN
-	1    5050 4450
-	0    -1   -1   0   
-$EndComp
-Text GLabel 4950 4550 2    50   Input ~ 0
-SCL
-Text GLabel 4950 4650 2    50   Input ~ 0
-SDA
-Text GLabel 4950 4750 2    50   Input ~ 0
-CSB
-Text GLabel 4950 4850 2    50   Input ~ 0
-SDO
-Wire Wire Line
-	4800 4350 4950 4350
-Wire Wire Line
-	4800 4450 5050 4450
-Wire Wire Line
-	4800 4550 4950 4550
-Wire Wire Line
-	4800 4650 4950 4650
-Wire Wire Line
-	4800 4750 4950 4750
-Wire Wire Line
-	4800 4850 4950 4850
-Wire Notes Line
-	4500 4200 4500 4950
-Wire Notes Line
-	4500 4950 5350 4950
-Wire Notes Line
-	5350 4950 5350 4200
-Wire Notes Line
-	5350 4200 4500 4200
-Text Notes 4650 4150 0    50   ~ 0
-Socket BMP280\n
 Wire Notes Line
 	4400 3200 5350 3200
 Wire Notes Line
@@ -341,9 +287,9 @@ Buzzer\n
 Text GLabel 2100 3200 2    50   Input ~ 0
 +3V3
 Text GLabel 2750 2950 3    50   Input ~ 0
-SCL
+SCL1
 Text GLabel 2850 2950 3    50   Input ~ 0
-SDA
+SDA1
 Text GLabel 3450 3950 1    50   Input ~ 0
 CS
 Text GLabel 3150 2950 3    50   Input ~ 0
@@ -384,7 +330,7 @@ Text Notes 4650 2400 0    50   ~ 0
 Alimentação\n
 Text GLabel 2350 2950 3    50   Input ~ 0
 VBAT
-Text GLabel 4950 6050 2    50   Input ~ 0
+Text GLabel 4950 4750 2    50   Input ~ 0
 +3V3
 Wire Notes Line
 	1450 2400 1450 4500
@@ -420,22 +366,18 @@ Text GLabel 2450 2950 3    50   Input ~ 0
 GND
 Text GLabel 2550 2950 3    50   Input ~ 0
 RST
-Text GLabel 2950 2950 3    50   Input ~ 0
-A1
-Text GLabel 3050 2950 3    50   Input ~ 0
-A0
 Text GLabel 3450 2950 3    50   Input ~ 0
 D10
 Wire Notes Line
-	5700 3950 7250 3950
+	5700 4100 7250 4100
 Wire Notes Line
-	7250 3950 7250 5050
-Text Label 6300 3900 0    50   ~ 0
+	7250 4100 7250 5200
+Text Label 6300 4050 0    50   ~ 0
 Regulador
 Wire Notes Line
-	5700 5050 5700 3950
+	5700 5200 5700 4100
 Wire Notes Line
-	7250 5050 5700 5050
+	7250 5200 5700 5200
 Wire Wire Line
 	6350 3200 6150 3200
 Wire Wire Line
@@ -485,43 +427,43 @@ Text GLabel 6150 2800 0    50   Input ~ 0
 RXD
 Text GLabel 6150 2600 0    50   Input ~ 0
 M0
-Text GLabel 6450 4800 3    50   Input ~ 0
+Text GLabel 6450 4950 3    50   Input ~ 0
 GND
-Text GLabel 5950 4300 0    50   Input ~ 0
+Text GLabel 5950 4450 0    50   Input ~ 0
 VBAT
-Text GLabel 7000 4300 2    50   Input ~ 0
+Text GLabel 7000 4450 2    50   Input ~ 0
 VCC
 $Comp
 L Device:C C2
 U 1 1 5D99A3F1
-P 6050 4550
-F 0 "C2" H 6165 4596 50  0000 L CNN
-F 1 "C" H 6165 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6088 4400 50  0001 C CNN
-F 3 "~" H 6050 4550 50  0001 C CNN
-	1    6050 4550
+P 6050 4700
+F 0 "C2" H 6165 4746 50  0000 L CNN
+F 1 "C" H 6165 4655 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6088 4550 50  0001 C CNN
+F 3 "~" H 6050 4700 50  0001 C CNN
+	1    6050 4700
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C C1
 U 1 1 5D99A944
-P 6850 4550
-F 0 "C1" H 6965 4596 50  0000 L CNN
-F 1 "C" H 6965 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6888 4400 50  0001 C CNN
-F 3 "~" H 6850 4550 50  0001 C CNN
-	1    6850 4550
+P 6850 4700
+F 0 "C1" H 6965 4746 50  0000 L CNN
+F 1 "C" H 6965 4655 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6888 4550 50  0001 C CNN
+F 3 "~" H 6850 4700 50  0001 C CNN
+	1    6850 4700
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6850 4700 6450 4700
-Connection ~ 6450 4700
+	6850 4850 6450 4850
+Connection ~ 6450 4850
 Wire Wire Line
-	6450 4700 6450 4800
+	6450 4850 6450 4950
 Wire Wire Line
-	6050 4700 6450 4700
+	6050 4850 6450 4850
 Wire Wire Line
-	6450 4600 6450 4700
+	6450 4750 6450 4850
 $Comp
 L Connector:Conn_01x12_Female J4
 U 1 1 5D7A6B02
@@ -555,7 +497,7 @@ U 1 1 5DB829F4
 P 2850 6200
 F 0 "C3" H 2965 6246 50  0000 L CNN
 F 1 "100n" H 2965 6155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2888 6050 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 2888 6050 50  0001 C CNN
 F 3 "~" H 2850 6200 50  0001 C CNN
 	1    2850 6200
 	1    0    0    -1  
@@ -612,19 +554,19 @@ F 3 "~" H 5300 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 4300 6050 4300
+	6150 4450 6050 4450
 Wire Wire Line
-	6050 4400 6050 4300
-Connection ~ 6050 4300
+	6050 4550 6050 4450
+Connection ~ 6050 4450
 Wire Wire Line
-	6050 4300 5950 4300
+	6050 4450 5950 4450
 Wire Wire Line
-	7000 4300 6850 4300
+	7000 4450 6850 4450
 Wire Wire Line
-	6850 4400 6850 4300
-Connection ~ 6850 4300
+	6850 4550 6850 4450
+Connection ~ 6850 4450
 Wire Wire Line
-	6850 4300 6750 4300
+	6850 4450 6750 4450
 Text GLabel 2100 3400 2    50   Input ~ 0
 TX0
 Text GLabel 6050 3550 0    50   Input ~ 0
@@ -652,12 +594,12 @@ Wire Wire Line
 $Comp
 L Regulator_Linear:AP2204RA-3.3 U1
 U 1 1 5DA29FF3
-P 6450 4300
-F 0 "U1" H 6450 4542 50  0000 C CNN
-F 1 "ME620933" H 6450 4451 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3" H 6450 4525 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 6450 4300 50  0001 C CNN
-	1    6450 4300
+P 6450 4450
+F 0 "U1" H 6450 4692 50  0000 C CNN
+F 1 "ME620933" H 6450 4601 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 6450 4675 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 6450 4450 50  0001 C CNN
+	1    6450 4450
 	1    0    0    -1  
 $EndComp
 Text GLabel 7250 3650 2    50   Input ~ 0
@@ -674,8 +616,120 @@ Text GLabel 4700 3350 0    50   Input ~ 0
 D8
 Wire Wire Line
 	2300 4350 2550 4350
-Text GLabel 6850 4250 1    50   Input ~ 0
+Text GLabel 6850 4400 1    50   Input ~ 0
 +3V3
 Wire Wire Line
-	6850 4250 6850 4300
+	6850 4400 6850 4450
+Text Notes 5900 5700 0    50   ~ 0
+Socket BMP280_2\n
+Wire Notes Line
+	6600 5750 5750 5750
+Wire Notes Line
+	6600 6500 6600 5750
+Wire Notes Line
+	5750 6500 6600 6500
+Wire Notes Line
+	5750 5750 5750 6500
+Wire Wire Line
+	6050 6400 6200 6400
+Wire Wire Line
+	6050 6300 6200 6300
+Wire Wire Line
+	6050 6200 6200 6200
+Wire Wire Line
+	6050 6100 6200 6100
+Wire Wire Line
+	6050 6000 6300 6000
+Wire Wire Line
+	6050 5900 6200 5900
+Text GLabel 6200 6400 2    50   Input ~ 0
+SDO
+Text GLabel 6200 6300 2    50   Input ~ 0
+CSB
+$Comp
+L power:GND #PWR0106
+U 1 1 5D7A8F23
+P 6300 6000
+F 0 "#PWR0106" H 6300 5750 50  0001 C CNN
+F 1 "GND" V 6305 5872 50  0000 R CNN
+F 2 "" H 6300 6000 50  0001 C CNN
+F 3 "" H 6300 6000 50  0001 C CNN
+	1    6300 6000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6200 5900 2    50   Input ~ 0
+VCC
+$Comp
+L Connector:Conn_01x06_Male J6
+U 1 1 5D7A7B88
+P 5850 6100
+F 0 "J6" H 5958 6389 50  0001 C CNN
+F 1 "Conn_01x06_Male" H 5958 6390 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5850 6100 50  0001 C CNN
+F 3 "~" H 5850 6100 50  0001 C CNN
+	1    5850 6100
+	1    0    0    -1  
+$EndComp
+Text Notes 4700 5700 0    50   ~ 0
+Socket BMP280_1\n
+Wire Notes Line
+	5400 5750 4550 5750
+Wire Notes Line
+	5400 6500 5400 5750
+Wire Notes Line
+	4550 6500 5400 6500
+Wire Notes Line
+	4550 5750 4550 6500
+Wire Wire Line
+	4850 6400 5000 6400
+Wire Wire Line
+	4850 6300 5000 6300
+Wire Wire Line
+	4850 6200 5000 6200
+Wire Wire Line
+	4850 6100 5000 6100
+Wire Wire Line
+	4850 6000 5100 6000
+Wire Wire Line
+	4850 5900 5000 5900
+Text GLabel 5000 6400 2    50   Input ~ 0
+SDO
+Text GLabel 5000 6300 2    50   Input ~ 0
+CSB
+Text GLabel 5000 6200 2    50   Input ~ 0
+SDA1
+Text GLabel 5000 6100 2    50   Input ~ 0
+SCL1
+$Comp
+L power:GND #PWR0108
+U 1 1 5DB3806E
+P 5100 6000
+F 0 "#PWR0108" H 5100 5750 50  0001 C CNN
+F 1 "GND" V 5105 5872 50  0000 R CNN
+F 2 "" H 5100 6000 50  0001 C CNN
+F 3 "" H 5100 6000 50  0001 C CNN
+	1    5100 6000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5000 5900 2    50   Input ~ 0
+VCC
+$Comp
+L Connector:Conn_01x06_Male J9
+U 1 1 5DB38075
+P 4650 6100
+F 0 "J9" H 4758 6389 50  0001 C CNN
+F 1 "Conn_01x06_Male" H 4758 6390 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4650 6100 50  0001 C CNN
+F 3 "~" H 4650 6100 50  0001 C CNN
+	1    4650 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 6100 2    50   Input ~ 0
+SCL2
+Text GLabel 6200 6200 2    50   Input ~ 0
+SDA2
+Text GLabel 2950 2950 3    50   Input ~ 0
+SCL2
+Text GLabel 3050 2950 3    50   Input ~ 0
+SDA2
 $EndSCHEMATC
