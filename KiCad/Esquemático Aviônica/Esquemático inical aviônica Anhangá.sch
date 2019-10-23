@@ -578,7 +578,7 @@ U 1 1 5D7A7B88
 P 5650 6100
 F 0 "J6" H 5758 6389 50  0001 C CNN
 F 1 "Conn_01x06_Male" H 5758 6390 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5650 6100 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 5650 6100 50  0001 C CNN
 F 3 "~" H 5650 6100 50  0001 C CNN
 	1    5650 6100
 	1    0    0    -1  
@@ -630,7 +630,7 @@ U 1 1 5DB38075
 P 4650 6100
 F 0 "J9" H 4758 6389 50  0001 C CNN
 F 1 "Conn_01x06_Male" H 4758 6390 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4650 6100 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 4650 6100 50  0001 C CNN
 F 3 "~" H 4650 6100 50  0001 C CNN
 	1    4650 6100
 	1    0    0    -1  
