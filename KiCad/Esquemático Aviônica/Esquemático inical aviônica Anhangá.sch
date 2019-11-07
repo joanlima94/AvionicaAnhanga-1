@@ -656,9 +656,9 @@ F 3 "" H 5000 6400 50  0001 C CNN
 	1    5000 6400
 	0    -1   -1   0   
 $EndComp
-Text GLabel 2550 3500 3    50   Input ~ 0
-SDA
 Text GLabel 2650 3500 3    50   Input ~ 0
+SDA
+Text GLabel 2550 3500 3    50   Input ~ 0
 SCL
 Text GLabel 3050 2950 3    50   Input ~ 0
 A0
@@ -673,15 +673,15 @@ F 3 "~" H 2550 3300 50  0001 C CNN
 	1    2550 3300
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3350 2950 3    50   Input ~ 0
-MISO
 Text GLabel 3250 2950 3    50   Input ~ 0
+MISO
+Text GLabel 3350 2950 3    50   Input ~ 0
 MOSI
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0110
 U 1 1 5DB38D1B
 P 5400 5150
-F 0 "#PWR?" H 5400 4900 50  0001 C CNN
+F 0 "#PWR0110" H 5400 4900 50  0001 C CNN
 F 1 "GND" H 5405 4977 50  0000 C CNN
 F 2 "" H 5400 5150 50  0001 C CNN
 F 3 "" H 5400 5150 50  0001 C CNN
