@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Esquemático inical aviônica Anhangá-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -286,10 +285,8 @@ Text Notes 4500 3250 0    50   ~ 0
 Buzzer\n
 Text GLabel 2100 3200 2    50   Input ~ 0
 5V
-Text GLabel 2950 2950 3    50   Input ~ 0
-A1
-Text GLabel 3450 3950 1    50   Input ~ 0
-CS
+Text GLabel 3450 2950 3    50   Input ~ 0
+10
 Text GLabel 3150 2950 3    50   Input ~ 0
 SCK
 Wire Wire Line
@@ -325,7 +322,7 @@ Alimentação\n
 Text GLabel 2350 2950 3    50   Input ~ 0
 VBAT
 Text GLabel 5850 3200 2    50   Input ~ 0
-VBAT
+5V
 Wire Notes Line
 	1450 2400 1450 4500
 Wire Notes Line
@@ -344,7 +341,7 @@ Text GLabel 2100 3500 2    50   Input ~ 0
 DTR
 Text GLabel 2550 3950 1    50   Input ~ 0
 RST
-Text GLabel 2950 3950 1    50   Input ~ 0
+Text GLabel 2950 2950 3    50   Input ~ 0
 ANAL_INPUT_V_NÍQUEL
 Text GLabel 3250 3950 1    50   Input ~ 0
 D7
@@ -356,8 +353,8 @@ Text GLabel 2450 2950 3    50   Input ~ 0
 GND
 Text GLabel 2550 2950 3    50   Input ~ 0
 RST
-Text GLabel 3450 2950 3    50   Input ~ 0
-D10
+Text GLabel 3450 3950 1    50   Input ~ 0
+D9
 Wire Notes Line
 	4650 4300 6200 4300
 Wire Notes Line
@@ -523,12 +520,10 @@ F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 5400 4650 50  0001 C
 $EndComp
 Text GLabel 2300 4350 0    50   Input ~ 0
 D_OUTPUT_NÍQUEL
-Text GLabel 2550 4350 2    50   Input ~ 0
-D2
 Text GLabel 3350 3950 1    50   Input ~ 0
 D8
 Text GLabel 4450 3450 0    50   Input ~ 0
-D8
+10
 Wire Wire Line
 	2300 4350 2550 4350
 Text Notes 5700 5700 0    50   ~ 0
@@ -656,12 +651,10 @@ F 3 "" H 5000 6400 50  0001 C CNN
 	1    5000 6400
 	0    -1   -1   0   
 $EndComp
-Text GLabel 2650 3500 3    50   Input ~ 0
-SDA
 Text GLabel 2550 3500 3    50   Input ~ 0
+SDA
+Text GLabel 2650 3500 3    50   Input ~ 0
 SCL
-Text GLabel 3050 2950 3    50   Input ~ 0
-A0
 $Comp
 L Connector:Conn_01x02_Female J8
 U 1 1 5DC42AF8
@@ -688,4 +681,10 @@ F 3 "" H 5400 5150 50  0001 C CNN
 	1    5400 5150
 	1    0    0    -1  
 $EndComp
+Text GLabel 2950 3950 1    50   Input ~ 0
+D4
+Text GLabel 3050 2950 3    50   Input ~ 0
+CS
+Text GLabel 2550 4350 2    50   Input ~ 0
+D8
 $EndSCHEMATC
